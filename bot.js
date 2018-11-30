@@ -6,7 +6,7 @@ client.on('ready', () => {
   console.log(Logged in as ${client.user.tag}!);
 });
 
-client.on("ready", () => { // ßæÏ ÑíäÈæ
+client.on("ready", () => { 
   function lol() {
     client.guilds.get('448097257284304897').roles.find("name", "「  OWNER  」").setColor("RANDOM");
   };
