@@ -1,4 +1,4 @@
-const Discord = require('discord.js'); //ECRAM NETWORK SHOP ‘ﬂ—« · ⁄«„·ﬂ „⁄‰«
+const Discord = require('discord.js'); //ECRAM NETWORK SHOP √î√ü√ë√á √°√ä√ö√á√£√°√ü √£√ö√§√á
 const client = new Discord.Client();
 var prefix = "-";
 
@@ -6,9 +6,9 @@ client.on('ready', () => {
   console.log(Logged in as ${client.user.tag}!);
 });
 
-client.on("ready", () => { // ﬂÊœ —Ì‰»Ê
+client.on("ready", () => { // √ü√¶√è √ë√≠√§√à√¶
   function lol() {
-    client.guilds.get('448097257284304897').roles.find("name", "«”„ «·— »…").setColor("RANDOM");
+    client.guilds.get('448097257284304897').roles.find("name", "„Äå  OWNER  „Äç").setColor("RANDOM");
   };
   setInterval(lol, 1000);
 });
